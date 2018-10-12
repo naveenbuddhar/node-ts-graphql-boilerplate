@@ -5,7 +5,7 @@ import { User } from "./entity/User";
 import { ResolverMap } from "./types/ResolverTypes";
 import { Profile } from "./entity/Profile";
 import { UserProfile } from "./entity/UserProfile";
-
+// adding to github
 const typeDefs = `
   type User {
     id: Int!
@@ -55,7 +55,7 @@ const resolvers: ResolverMap = {
       const uProfile = await createQueryBuilder("UserProfile")
         .leftJoinAndSelect("UserProfile.profile", "profile")
         .getMany();
-      console.log("====================================");
+      console.log("======================================");
       console.log(uProfile);
       console.log("========================================");
     }

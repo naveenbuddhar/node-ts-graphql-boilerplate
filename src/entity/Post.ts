@@ -7,7 +7,7 @@ import {
   JoinTable
 } from "typeorm";
 import { User } from "./User";
-
+// adding to github
 @Entity()
 export class Post extends BaseEntity {
   @PrimaryGeneratedColumn()

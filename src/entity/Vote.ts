@@ -8,7 +8,7 @@ import {
 } from "typeorm";
 import { User } from "./User";
 import { Post } from "./Post";
-
+// adding to github
 @Entity()
 export class Vote extends BaseEntity {
   @Column({ type: "int" })
