@@ -57,7 +57,7 @@ const resolvers: ResolverMap = {
         .getMany();
       console.log("====================================");
       console.log(uProfile);
-      console.log("====================================");
+      console.log("========================================");
     }
   },
   Mutation: {
